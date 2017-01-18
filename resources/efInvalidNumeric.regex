@@ -1,0 +1,12 @@
+#PRE
+rwt.{1,3}=
+not (seen|meas(ured)?|assessed)
+
+#POST
+(\bmm(hg)?\b|\bml\b|\bbpm\b)
+
+#ANCHOR
+\( ?\d+ ?\) ?(\d| |\-|\*)+
+\b\d+(\/|-|:)\d+(\/|-|:)\d+\b
+\d+\/\d+\/\d+\s+\d+:\d+(:\d+ ?(am|pm)?)?
+\d+:\d+:\d+ ?(am|pm)

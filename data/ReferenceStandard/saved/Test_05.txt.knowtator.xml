@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="Test_05.txt">
+    <annotation>
+        <mention id="EHOST_Instance_84" />
+        <annotator id="eHOST_2010">Extensible_Human_Oracle_Suite_of_Tools</annotator>
+        <span start="939" end="941" />
+        <spannedText>60</spannedText>
+        <creationDate>Thu Jun 23 16:10:44 CDT 2016</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_84">
+        <mentionClass id="EjectionFraction_Value">60</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_85" />
+        <annotator id="eHOST_2010">Extensible_Human_Oracle_Suite_of_Tools</annotator>
+        <span start="164" end="166" />
+        <spannedText>60</spannedText>
+        <creationDate>Thu Jun 23 16:10:48 CDT 2016</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_85">
+        <mentionClass id="EjectionFraction_Value">60</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

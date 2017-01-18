@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="Test_01.txt">
+    <annotation>
+        <mention id="EHOST_Instance_74" />
+        <annotator id="eHOST_2010">Extensible_Human_Oracle_Suite_of_Tools</annotator>
+        <span start="396" end="401" />
+        <spannedText>55-60</spannedText>
+        <creationDate>Thu Jun 23 16:08:46 CDT 2016</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_74">
+        <mentionClass id="EjectionFraction_Value">55-60</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_75" />
+        <annotator id="eHOST_2010">Extensible_Human_Oracle_Suite_of_Tools</annotator>
+        <span start="1020" end="1029" />
+        <spannedText>70% to 75</spannedText>
+        <creationDate>Thu Jun 23 16:09:04 CDT 2016</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_75">
+        <mentionClass id="EjectionFraction_Value">70% to 75</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_76" />
+        <annotator id="eHOST_2010">Extensible_Human_Oracle_Suite_of_Tools</annotator>
+        <span start="2866" end="2871" />
+        <spannedText>70-75</spannedText>
+        <creationDate>Thu Jun 23 16:09:25 CDT 2016</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_76">
+        <mentionClass id="EjectionFraction_Value">70-75</mentionClass>
+    </classMention>
+    <annotation>
+        <mention id="EHOST_Instance_77" />
+        <annotator id="eHOST_2010">Extensible_Human_Oracle_Suite_of_Tools</annotator>
+        <span start="255" end="257" />
+        <spannedText>68</spannedText>
+        <creationDate>Thu Jun 23 16:13:02 CDT 2016</creationDate>
+    </annotation>
+    <classMention id="EHOST_Instance_77">
+        <mentionClass id="EjectionFraction_Value">68</mentionClass>
+    </classMention>
+    <eHOST_Adjudication_Status version="1.0">
+        <Adjudication_Selected_Annotators version="1.0" />
+        <Adjudication_Selected_Classes version="1.0" />
+        <Adjudication_Others>
+            <CHECK_OVERLAPPED_SPANS>false</CHECK_OVERLAPPED_SPANS>
+            <CHECK_ATTRIBUTES>false</CHECK_ATTRIBUTES>
+            <CHECK_RELATIONSHIP>false</CHECK_RELATIONSHIP>
+            <CHECK_CLASS>false</CHECK_CLASS>
+            <CHECK_COMMENT>false</CHECK_COMMENT>
+        </Adjudication_Others>
+    </eHOST_Adjudication_Status>
+</annotations>
+

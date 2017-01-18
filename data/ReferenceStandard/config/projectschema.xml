@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eHOST_Project_Configure Version="1.0">
+    <Handling_Text_Database>false</Handling_Text_Database>
+    <OracleFunction_Enabled>false</OracleFunction_Enabled>
+    <AttributeEditor_PopUp_Enabled>false</AttributeEditor_PopUp_Enabled>
+    <OracleFunction>true</OracleFunction>
+    <AnnotationBuilder_Using_ExactSpan>false</AnnotationBuilder_Using_ExactSpan>
+    <OracleFunction_Using_WholeWord>true</OracleFunction_Using_WholeWord>
+    <GraphicAnnotationPath_Enabled>true</GraphicAnnotationPath_Enabled>
+    <Diff_Indicator_Enabled>true</Diff_Indicator_Enabled>
+    <Diff_Indicator_Check_CrossSpan>true</Diff_Indicator_Check_CrossSpan>
+    <Diff_Indicator_Check_Overlaps>false</Diff_Indicator_Check_Overlaps>
+    <StopWords_Enabled>false</StopWords_Enabled>
+    <Output_VerifySuggestions>false</Output_VerifySuggestions>
+    <Pre_Defined_Dictionary_DifferentWeight>false</Pre_Defined_Dictionary_DifferentWeight>
+    <PreAnnotated_Dictionaries Owner="NLP_Assistant" />
+    <attributeDefs />
+    <Relationship_Rules />
+    <classDefs>
+        <classDef>
+            <Name>EjectionFraction_Value</Name>
+            <RGB_R>0</RGB_R>
+            <RGB_G>255</RGB_G>
+            <RGB_B>255</RGB_B>
+            <InHerit_Public_Attributes>true</InHerit_Public_Attributes>
+            <Source>eHOST</Source>
+        </classDef>
+    </classDefs>
+</eHOST_Project_Configure>
+

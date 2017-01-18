@@ -1,0 +1,3 @@
+#!/bin/bash
+
+java -Xmx1024m -Xms256m -Dlog4j.configuration=config/log4j.properties -cp "target/lib/*:target/ef-extractor-2016.06.0-SNAPSHOT.jar" gov.va.vinci.ef.Client -clientConfigFile "config/ClientConfig.groovy" -readerConfigFile "config/readers/FileCollectionReaderConfig.groovy" -listenerConfigFile "config/listeners/SimpleXmiListenerConfig.groovy"  -listenerConfigFile "config/listeners/SimpleCsvListenerConfig.groovy"

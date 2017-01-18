@@ -1,0 +1,20 @@
+ej\w*\s*fr\w+
+\b(lv *)?(e|s)f\b
+systo\w+.{1,3}(frac|func)\w*
+ef.{0,3}teich\)?
+ef.{1,3}techhozte
+ef.{1,3}trace
+ef\(?mod\-sp4\)?
+lv.{0,3}ef.{1,3}\(?modified.{1,3}simpson's\)?
+est(\.|\w+)?(.{1,3}ejection.{1,3}fraction|.{1,3}ef)
+lv.{1,3}ejection.{1,3}fraction
+ef.{1,3}mod.{1,2}a\dc
+ef.{1,3}a\-l.{1,2}a\dc
+ef.{1,3}biplane
+ef.{1,3}ave(.{1,3}mod)?.{1,9}simpson.?s
+ef.{1,3}(2|3)d
+(2|3)d.{1,3}(lv.{0,3})?ef
+simpson(.s)?(.{1,3}method)?
+m.{0,3}mode
+ef.{1,6}mod(\w+)?.{1,3}quin(\w+)?.{1,3}eq(\w+)
+(ejection.{1,3}fraction|ef).{1,3}mm.{1,3}(t|c)
