@@ -100,7 +100,7 @@ public class EFRangeTemplate01Scanner extends BaseAnnotationScanner {
         mergeList.addAll(AnnotationLibrarian.getNextAnnotationsOfType(a, NumericValue.type, 7, false));
         //Merge the annotations if they can be
         ArrayList<ConceptLinkService.LinkSpan> spans
-                = (ArrayList<ConceptLinkService.LinkSpan>) mergeService.linkSpans(mergeList, docText);
+                = (ArrayList<ConceptLinkService.LinkSpan>) mergeService.linkSpans(mergeList, docText); // any number of types allowed
         if (spans.size() < 1)
             return;
         //Check the merged span to make sure it meets the minimum reqs

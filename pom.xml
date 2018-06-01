@@ -5,7 +5,7 @@
 
     <groupId>gov.va.vinci.leo</groupId>
     <artifactId>ef-extractor</artifactId>
-    <version>2016.06.0-SNAPSHOT</version>
+    <version>2018.05.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>EF_Exctractor</name>
     <description>EfExtractor Pipeline is designed to find left ventricular ejection fraction measurements in clinical
@@ -81,19 +81,19 @@
         <dependency>
             <groupId>gov.va.vinci.leo</groupId>
             <artifactId>leo-core</artifactId>
-            <version>2017.01.3</version>
+            <version>2018.01.0</version>
             <type>pom</type>
         </dependency>
         <dependency>
             <groupId>gov.va.vinci.leo</groupId>
             <artifactId>leo-client</artifactId>
-            <version>2017.01.3</version>
+            <version>2018.01.0</version>
             <type>pom</type>
         </dependency>
         <dependency>
             <groupId>gov.va.vinci.leo</groupId>
             <artifactId>leo-service</artifactId>
-            <version>2017.01.3</version>
+            <version>2018.01.0</version>
             <type>pom</type>
         </dependency>
         <!-- Core Leo dependency end-->
@@ -101,25 +101,25 @@
         <dependency>
             <groupId>gov.va.vinci</groupId>
             <artifactId>leo-annotation-pattern</artifactId>
-            <version>2016.11.0</version>
+            <version>2018.02.0</version>
         </dependency>
 
         <dependency>
             <groupId>gov.va.vinci</groupId>
             <artifactId>leo-annotation-librarian</artifactId>
-            <version>2016.10.0</version>
+            <version>2018.01.0</version>
         </dependency>
 
         <dependency>
             <groupId>gov.va.vinci</groupId>
             <artifactId>leo-regex</artifactId>
-            <version>2016.09.0</version>
+            <version>2018.02.0</version>
         </dependency>
 
         <dependency>
             <groupId>gov.va.vinci</groupId>
             <artifactId>leo-window</artifactId>
-            <version>2016.05.1</version>
+            <version>2018.02.0</version>
         </dependency>
 
         <dependency>
@@ -131,20 +131,19 @@
         <dependency>
             <groupId>gov.va.vinci</groupId>
             <artifactId>leo-knowtator</artifactId>
-            <version>2016.06.1</version>
+            <version>2018.02.0</version>
         </dependency>
 
         <dependency>
             <groupId>gov.va.vinci</groupId>
             <artifactId>leo-annotation-filter</artifactId>
-            <version>2016.05.3</version>
+            <version>2018.02.0</version>
         </dependency>
 
-        <!-- TODO: Update aucompare -->
         <dependency>
             <groupId>gov.va.vinci</groupId>
             <artifactId>leo-aucompare</artifactId>
-            <version>2016.09.0</version>
+            <version>2018.02.0</version>
         </dependency>
         <!-- Leo Bones dependency end -->
         <!-- Leo Dependencies end -->

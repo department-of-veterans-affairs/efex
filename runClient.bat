@@ -9,16 +9,13 @@ goto RUN_1
 
 :USAGE_JAVA
 echo Running this application requires Java 8. 
-set JAVA_HOME=H:\Java\jdk1.8.0_25
+set JAVA_HOME=C:\Java\jdk1.8.0_144
 goto RUN_2
 
 
 :RUN_1
-
-@call java -Xmx1024m -Xms256m -Dlog4j.configuration=config/log4j.properties -cp "lib/*;ef-extractor-2016.06.0-SNAPSHOT.jar" gov.va.vinci.ef.Client -clientConfigFile "config/ClientConfig.groovy" -readerConfigFile "config/readers/KnowtatorCollectionReaderConfig.groovy" -listenerConfigFile "config/listeners/SimpleXmiListenerConfig.groovy"
+@call java -Dlog4j.configurationFile=config/log4j.properties -cp "config/*;lib/*;target/ef-extractor-2018.05.0-SNAPSHOT-jar-with-dependencies.jar" gov.va.vinci.ef.Client -clientConfigFile "config/ClientConfig.groovy" -readerConfigFile "config/readers/KnowtatorCollectionReaderConfig.groovy" -listenerConfigFile "config/listeners/SimpleXmiListenerConfig.groovy"
 
 :RUN_2
-@call %JAVA_HOME%/bin/java -Xmx1024m -Xms256m -Dlog4j.configuration=config/log4j.properties -cp "lib/*;ef-extractor-2016.06.0-SNAPSHOT.jar" gov.va.vinci.ef.Client -clientConfigFile "config/ClientConfig.groovy" -readerConfigFile "config/readers/KnowtatorCollectionReaderConfig.groovy" -listenerConfigFile "config/listeners/SimpleXmiListenerConfig.groovy"
-:: @call %JAVA_HOME%/bin/java -Xmx1024m -Xms256m -Dlog4j.configuration=config/log4j.properties -cp "lib/*;ef-extractor-2016.06.0-SNAPSHOT.jar" gov.va.vinci.ef.Client -clientConfigFile "config/ClientConfig.groovy" -readerConfigFile "config/readers/FileCollectionReaderConfig.groovy" -listenerConfigFile "config/listeners/SimpleXmiListenerConfig.groovy"
-:: @call %JAVA_HOME%/bin/java -Xmx1024m -Xms256m  -Djava.library.path=config -Dlog4j.configuration=config/log4j.properties -cp "lib/*;ef-extractor-2016.06.0-SNAPSHOT.jar" gov.va.vinci.ef.Client -clientConfigFile "config/ClientConfig.groovy" -readerConfigFile "config/readers/BatchDatabaseCollectionReaderConfig.groovy" -listenerConfigFile "config/listeners/DatabaseListenerConfig.groovy"
+@call %JAVA_HOME%/bin/java -Dlog4j.configurationFile=config/log4j.properties -cp "config/*;lib/*;ef-extractor-2018.05.0-SNAPSHOT.jar" gov.va.vinci.ef.Client -clientConfigFile "config/ClientConfig.groovy" -readerConfigFile "config/readers/KnowtatorCollectionReaderConfig.groovy" -listenerConfigFile "config/listeners/SimpleXmiListenerConfig.groovy"
 pause

@@ -11,7 +11,7 @@
 /bin
 /*.log
 /data/output
-/dist
+dist/data/output
 /src/test/resources/output
 /target
 /config/desc/*.xml
