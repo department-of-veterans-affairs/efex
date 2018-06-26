@@ -1,12 +1,12 @@
-## EchoExtractor(EF) - Extremely fast document processor
+## EFEx - Extremely fast document processor
 
 If using this system, please cite:
 
 Patterson OV, DuVall SL (2017) For the Common Good: Sharing data extracted from text. In: AMIA Annu Symp Proc.
 
-EFExtractor Pipeline is designed to find left ventricular ejection fraction measurements in clinical text.
+EFEx Pipeline is designed to find left ventricular ejection fraction measurements in clinical text.
 
-EchoExtractor_EF is based on Leo architecture extending UIMA AS.  For more info on [Leo](http://department-of-veterans-affairs.github.io/Leo/userguide.html)
+EFEx is based on Leo architecture extending UIMA AS.  For more info on [Leo](http://department-of-veterans-affairs.github.io/Leo/userguide.html)
 
 To use EchoExtractor_EF :
 
