@@ -1,6 +1,7 @@
 ## EchoExtractor(EF) - Extremely fast document processor
 
 If using this system, please cite:
+
 Patterson OV, DuVall SL (2017) For the Common Good: Sharing data extracted from text. In: AMIA Annu Symp Proc.
 
 EFExtractor Pipeline is designed to find left ventricular ejection fraction measurements in clinical text.
